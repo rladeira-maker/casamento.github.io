@@ -1,0 +1,113 @@
+
+h1, h2{
+  color: goldenrod;
+  font-family: "Cormorant Upright", serif;
+  font-weight: 700; text-align: center;
+
+}
+
+h1 {
+  font-size: 6rem;
+  margin-top: 1vh;
+}
+
+h2 {
+  font-size: 3rem;
+}
+
+img{
+  width: 230px;
+  height: auto;
+  margin: 5px; 
+}
+
+ul{
+    list-style-type: none;    
+}
+
+a:link{
+  text-align: center;
+  color: yellow;
+}
+
+a:visited{
+  text-align: center;
+  color: palegreen;
+}
+
+p{
+  color: gold;
+  font-family: Roboto, sans-serif;
+  font-weight: 600;
+  text-align: center;
+  padding: 1em;
+}
+
+div{
+  overflow: hidden;
+}
+
+footer{
+  display:flex  ;
+  flex-direction: row;
+  align-items: right;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+footer p{
+  color:aliceblue
+}
+
+.container{
+    font-family: Arial, Helvetica, sans-serif;
+    max-width: 1330px;
+    margin: 0 auto;
+    padding:1em;
+    background-color: black;
+}
+
+.menu {
+  font-family: "Cormorant Upright", serif;
+  display: flex;
+  justify-content: space-between;
+  padding: 1em;
+  font-size: 1.5em;
+  font-weight: 700;
+  flex-direction: row;
+  text-align: center;
+  flex-wrap: wrap;
+}
+
+.menu a {
+  text-decoration: none;
+  color: goldenrod;
+}
+
+.menu a:hover {
+  text-decoration: underline;
+  color: green;
+}
+
+.menufotos{
+  display:flex;
+  justify-content: start;
+  flex-direction: column;
+}
+
+.logo{
+  width: 50px;
+  height: auto;
+}
+  #background-video {
+    width: 100vw;/*100vw;*/
+    height:100vh; /*100vh;*/
+    object-fit: cover;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+    opacity: 0.5;
+ }
